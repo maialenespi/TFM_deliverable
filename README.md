@@ -3,10 +3,14 @@ Este código implementa una Red Neuronal Cuántica (QNN) diseñada para simular 
 
 ## Estructura del proyecto
 ```
-├── network.py                   # Implementación principal de la QNN y la puerta personalizada
-├── evaluation.ipynb        # Cuaderno de Jupyter para la generación de datos, entrenamiento y visualización
+├── network.py                # Implementación principal de la QNN y la puerta personalizada
+├── evaluation.ipynb          # Cuaderno de Jupyter para la generación de datos, entrenamiento y visualización
 ├── requirements.txt          # Dependencias de Python
 ├── results.pkl               # Resultados de entrenamiento
+├── images/                   # Gráficas de resultados de entrenamiento
+    ├── eval-curve.jpg        # Curva de referencia a aproximar
+    ├── losses.jpg            # Curvas de entrenamiento
+    └── results.jpg           # Curva de referencia y curvas aproximadas
 └── README.md                 # Este archivo README
 ```
 
